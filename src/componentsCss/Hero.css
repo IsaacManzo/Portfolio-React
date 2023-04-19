@@ -1,0 +1,35 @@
+/* HER0 */
+
+.hero {
+    
+    min-height: 450px;
+    text-align: center;
+    position: relative;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-imagen-perfil {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.hero-principal h2 {
+   font-size: 1.5rem;
+   color: #9b9296;
+}
+
+.hero-titulo {
+    font-size: 2.5rem;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+}

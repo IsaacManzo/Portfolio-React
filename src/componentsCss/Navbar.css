@@ -1,0 +1,14 @@
+/* NAVBAR */
+
+.navbar-collapse {
+    align-items:flex-end;
+    justify-content:space-between;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
